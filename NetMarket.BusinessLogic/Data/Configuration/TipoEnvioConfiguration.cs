@@ -15,7 +15,7 @@ namespace NetMarket.BusinessLogic.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<TipoEnvio> builder)
         {
-            
+            builder.Property(t => t.Preco).HasColumnType("decimal(18, 2)");
         }
     }
 }
