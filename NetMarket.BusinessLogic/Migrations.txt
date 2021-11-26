@@ -1,0 +1,1 @@
+﻿dotnet ef migrations add SegurancaInicial -p NetMarket.BusinessLogic -s NetMarket.WebApi -o Identity/Migrations -c SegurancaDbContext
